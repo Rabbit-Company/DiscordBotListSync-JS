@@ -10,10 +10,12 @@ Periodically post your Discord bot's stats (guild count, user count, shard count
 
 ## Supported bot lists
 
-| List                                 | Class         | Fields sent                   | Needs `botId`? |
-| ------------------------------------ | ------------- | ----------------------------- | -------------- |
-| [Top.gg](https://top.gg)             | `TopGG`       | `server_count`, `shard_count` | No             |
-| [Discords.com](https://discords.com) | `DiscordsCom` | `server_count`                | Yes            |
+| List                                                     | Class                   | Fields sent                                       | Needs `botId`? |
+| -------------------------------------------------------- | ----------------------- | ------------------------------------------------- | -------------- |
+| [Top.gg](https://top.gg)                                 | `TopGG`                 | `server_count`, `shard_count`                     | No             |
+| [Discords.com](https://discords.com)                     | `DiscordsCom`           | `server_count`                                    | Yes            |
+| [DiscordBotList.com](https://discordbotlist.com)         | `DiscordBotListCom`     | `server_count`, `user_count`, `voice_connections` | Yes            |
+| [DiscordExtremeList.xyz](https://discordextremelist.xyz) | `DiscordExtremeListXyz` | `server_count`, `shard_count`                     | Yes            |
 
 ## Install
 
