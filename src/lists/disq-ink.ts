@@ -16,7 +16,6 @@ export class DisqInk extends BotList {
 
 	protected createRequest(stats: BotStats, context: PostContext): HttpRequestSpec {
 		const body: Record<string, number> = { serverCount: stats.guildCount };
-		if (stats.shardCount !== undefined) body.shards = stats.shardCount;
 
 		return {
 			url: `https://api.disq.ink/v1/bots/${context.botId}`,
