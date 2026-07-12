@@ -2,7 +2,7 @@
 	"name": "@rabbit-company/discord-bot-list-sync",
 	"version": "0.1.0",
 	"description": "Periodically post your Discord bot's guild/user/shard counts to bot list websites.",
-	"private": true,
+	"private": false,
 	"type": "module",
 	"homepage": "https://github.com/Rabbit-Company/DiscordBotListSync-JS",
 	"funding": "https://rabbit-company.com/donation",
