@@ -83,7 +83,7 @@ describe("DiscordBotListCom adapter", () => {
 		const call = calls[0]!;
 		expect(call.url).toBe("https://discordbotlist.com/api/v1/bots/111222333/stats");
 		expect(call.method).toBe("POST");
-		expect(call.headers.Authorization).toBe("Bearer dbl-token");
+		expect(call.headers.Authorization).toBe("dbl-token");
 		expect(call.headers["Content-Type"]).toBe("application/json");
 		expect(JSON.parse(call.body!)).toEqual({
 			guilds: 321,
@@ -119,7 +119,7 @@ describe("DiscordExtremeListXyz adapter", () => {
 		const call = calls[0]!;
 		expect(call.url).toBe("https://api.discordextremelist.xyz/v2/bot/111222333/stats");
 		expect(call.method).toBe("POST");
-		expect(call.headers.Authorization).toBe("Bearer del-token");
+		expect(call.headers.Authorization).toBe("del-token");
 		expect(call.headers["Content-Type"]).toBe("application/json");
 		expect(JSON.parse(call.body!)).toEqual({
 			guildCount: 456,

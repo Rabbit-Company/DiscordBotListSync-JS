@@ -21,7 +21,7 @@ export class DiscordExtremeListXyz extends BotList {
 		return {
 			url: `https://api.discordextremelist.xyz/v2/bot/${context.botId}/stats`,
 			method: "POST",
-			headers: { Authorization: `Bearer ${this.token}` },
+			headers: { Authorization: this.token },
 			body,
 		};
 	}

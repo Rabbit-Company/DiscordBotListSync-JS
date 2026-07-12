@@ -22,7 +22,7 @@ export class DiscordBotListCom extends BotList {
 		return {
 			url: `https://discordbotlist.com/api/v1/bots/${context.botId}/stats`,
 			method: "POST",
-			headers: { Authorization: `Bearer ${this.token}` },
+			headers: { Authorization: this.token },
 			body,
 		};
 	}
