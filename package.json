@@ -1,0 +1,42 @@
+{
+	"name": "@rabbit-company/discord-bot-list-sync",
+	"version": "0.1.0",
+	"description": "Periodically post your Discord bot's guild/user/shard counts to bot list websites.",
+	"license": "MIT",
+	"type": "module",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js"
+		}
+	},
+	"files": [
+		"dist",
+		"src"
+	],
+	"sideEffects": false,
+	"engines": {
+		"node": ">=18"
+	},
+	"keywords": [
+		"discord",
+		"discord-bot",
+		"botlist",
+		"top.gg",
+		"discords.com",
+		"server-count",
+		"stats"
+	],
+	"scripts": {
+		"build": "rm -rf dist && bunx tsc -p tsconfig.build.json",
+		"test": "bun test",
+		"typecheck": "bunx tsc --noEmit"
+	},
+	"devDependencies": {
+		"@types/bun": "^1.3.14",
+		"typescript": "^7.0.2"
+	}
+}
