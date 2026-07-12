@@ -12,6 +12,7 @@ import type { BotStats, HttpRequestSpec, PostContext } from "../types.js";
 export class DiscordExtremeListXyz extends BotList {
 	readonly key = "discordextremelistxyz";
 	readonly name = "DiscordExtremeList.xyz";
+	override readonly requiresBotId = true;
 
 	protected createRequest(stats: BotStats, context: PostContext): HttpRequestSpec {
 		const body: Record<string, number> = { guildCount: stats.guildCount };
