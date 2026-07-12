@@ -5,7 +5,7 @@ import type { BotStats, HttpRequestSpec, PostContext } from "../types.js";
  * Discord Bot List - https://discordbotlist.com
  *
  * API: POST https://discordbotlist.com/api/v1/bots/:id/stats
- * Auth: Authorization: Bearer <token>
+ * Auth: Authorization: <token>
  * Supported fields: shard_id, guilds, users, voice_connections
  * Success: 200 { "success": true }
  */

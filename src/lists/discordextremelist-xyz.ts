@@ -5,7 +5,7 @@ import type { BotStats, HttpRequestSpec, PostContext } from "../types.js";
  * Discord Extreme List - https://discordextremelist.xyz
  *
  * API: POST https://api.discordextremelist.xyz/v2/bot/:id/stats
- * Auth: Authorization: Bearer <token>
+ * Auth: Authorization: <token>
  * Supported fields: guildCount, shardCount
  * Success: 200 { "error": false, "status": 200, "guildCount": 0, "shardCount": 0 }
  */

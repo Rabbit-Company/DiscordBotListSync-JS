@@ -1,6 +1,6 @@
 {
 	"name": "@rabbit-company/discord-bot-list-sync",
-	"version": "0.1.1",
+	"version": "0.2.0",
 	"description": "Periodically post your Discord bot's guild/user/shard counts to bot list websites.",
 	"private": false,
 	"type": "module",

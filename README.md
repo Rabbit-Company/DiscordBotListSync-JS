@@ -16,6 +16,9 @@ Periodically post your Discord bot's stats (guild count, user count, shard count
 | [Discords.com](https://discords.com)                     | `DiscordsCom`           | `server_count`                                    | Yes            |
 | [DiscordBotList.com](https://discordbotlist.com)         | `DiscordBotListCom`     | `server_count`, `user_count`, `voice_connections` | Yes            |
 | [DiscordExtremeList.xyz](https://discordextremelist.xyz) | `DiscordExtremeListXyz` | `server_count`, `shard_count`                     | Yes            |
+| [Radarcord.net](https://radarcord.net)                   | `RadarcordNet`          | `server_count`, `shard_count`                     | Yes            |
+| [Disq.ink](https://disq.ink)                             | `DisqInk`               | `server_count`, `shard_count`                     | Yes            |
+| [Dlist.space](https://dlist.space)                       | `DlistSpace`            | `server_count`, `shard_count`, `user_count`       | Yes            |
 
 ## Install
 
