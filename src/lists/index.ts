@@ -5,3 +5,4 @@ export { DiscordExtremeListXyz } from "./discordextremelist-xyz.js";
 export { RadarcordNet } from "./radarcord-net.js";
 export { DisqInk } from "./disq-ink.js";
 export { DlistSpace } from "./dlist-space.js";
+export { DiscordBotsGG } from "./discord-bots-gg.js";
