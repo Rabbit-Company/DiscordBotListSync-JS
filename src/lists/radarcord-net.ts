@@ -2,9 +2,9 @@ import { BotList } from "../bot-list.js";
 import type { BotStats, HttpRequestSpec, PostContext } from "../types.js";
 
 /**
- * Radarcord - https://radar.cpdv.net
+ * Radarcord - https://radar.cpdv.net/api
  *
- * API: POST https://api.radarcord.net/bot/:id/stats
+ * API: POST https://radar.cpdv.net/api/bot/:id/stats
  * Auth: Authorization: <token>
  * Supported fields: guilds, shards
  * Success: 200 { message: "Success" }
@@ -19,7 +19,7 @@ export class RadarcordNet extends BotList {
 		if (stats.shardCount !== undefined) body.shards = stats.shardCount;
 
 		return {
-			url: `https://api.radarcord.net/bot/${context.botId}/stats`,
+			url: `https://radar.cpdv.net/api/bot/${context.botId}/stats`,
 			method: "POST",
 			headers: { Authorization: this.token },
 			body,
